@@ -1,6 +1,12 @@
 var puntos=0;
 var segundos=8;
 
+
+function restart(){
+  location.reload();
+}
+
+
 function inicia(){
   setTimeout(fin, segundos * 1000);
 }
@@ -18,7 +24,7 @@ function posicion(){
   enemigo.style.top=y + "px";
 
 
- puntos++;
+ puntos+=10;
 }
 
 
@@ -33,7 +39,7 @@ function posicision(){
   enemigo.style.top=y + "px";
 
 
- puntos+=40;
+ puntos+=2;
 
 
 }
@@ -51,3 +57,4 @@ if(segundos <= 0){
 segundos = 3;
 }
 }, 1000);
+

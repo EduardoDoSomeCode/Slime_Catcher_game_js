@@ -1,13 +1,38 @@
-p{
- font-family:sans-serif;
- text-align:center;
- font-weight:bold;
- font-size:50px;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap');
+
+
+
+*{
+ font-family: 'Chakra Petch', sans-serif;
 }
 
-body{
-background-image: url("background.png");
+a{
+ text-decoration:none;
+
 }
-#enemigo{
-  z-index:1;
+h1{
+  text-align:center;
 }
+.center{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+}
+
+
+.button{
+ 
+ color: white;
+ cursor:pointer;
+ background-color:#008CBA;
+ font-size: 2rem;
+ border-radius:10%;
+ text-decoration:none;
+ transistion-duration:0.4s;
+
+}
+.button:hover{
+  background-color:#000;
+  color:white;
+ }
